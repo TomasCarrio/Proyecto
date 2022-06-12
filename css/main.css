@@ -20,29 +20,9 @@ body {
       border: solid 1px #ff0000;
       padding: 10px;
       padding-bottom: 5px; }
-    .contenedor-principal .title-nav .navig {
+    .contenedor-principal .title-nav .btn-group {
       display: flex;
-      justify-content: center;
-      text-align: center;
-      padding: 10px; }
-      .contenedor-principal .title-nav .navig .nav-inicio {
-        color: #ff0000; }
-      .contenedor-principal .title-nav .navig .nav-portfolio {
-        color: #00ffbf; }
-      .contenedor-principal .title-nav .navig .nav-contacto {
-        color: #15ff00; }
-      .contenedor-principal .title-nav .navig .nav-comics {
-        color: #ffee00; }
-      .contenedor-principal .title-nav .navig .nav-personajes {
-        color: #c300ff; }
-      .contenedor-principal .title-nav .navig .navig .dropdown li {
-        list-style-type: none;
-        text-align: center;
-        margin: 10px;
-        transition-duration: 1s; }
-      .contenedor-principal .title-nav .navig li:hover {
-        transform: scale(2);
-        transition-duration: 1s; }
+      justify-content: center; }
   .contenedor-principal .contenido {
     grid-area: contenido;
     display: flex;
@@ -54,7 +34,7 @@ body {
     .contenedor-principal .contenido .texto {
       text-align: center; }
     .contenedor-principal .contenido p {
-      font-weight: bold; }
+      font-weight: 500; }
     .contenedor-principal .contenido .p-1, .contenedor-principal .contenido .p-2 {
       width: 100%;
       height: 100%; }
@@ -93,3 +73,6 @@ body {
     display: flex;
     margin-top: 15px;
     justify-content: center; }
+    .contenedor-principal footer .final-2 {
+      display: flex;
+      justify-content: center; }

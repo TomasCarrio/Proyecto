@@ -21,37 +21,10 @@
                     padding: 10px;
                     padding-bottom: 5px;
                 }
-                .navig {
+                .btn-group {
                     display: flex;
                     justify-content: center;
-                    text-align: center;
-                    padding: 10px;
-                    
-                    //mapas............
-                    
-                    $navig: (
-                        inicio: #ff0000,
-                        portfolio: #00ffbf,
-                        contacto: #15ff00,
-                        comics: #ffee00,
-                        personajes: #c300ff,
-                    );
-                    @each $nav, $color in $navig {
-                        .nav-#{$nav} {
-                            color: $color;
-                        }
-                    }
-                    .navig .dropdown li {
-                        list-style-type: none;
-                        text-align: center;
-                        margin: 10px;
-                        transition-duration: 1s;
-                    }
-                    li:hover {
-                        transform: scale(2);
-                        transition-duration: 1s;
-                    }
-                }
+            }
         }
         .contenido {
             grid-area: contenido;
@@ -60,7 +33,7 @@
             justify-content: center;
             align-items: center;
             h3 {
-                    text-align: center;
+                text-align: center;
             }
 
             //mixin..................
@@ -73,7 +46,7 @@
                 text-align: center;
             }
             p {
-                font-weight: bold;
+                font-weight: 500;
             }
             .p-1, .p-2 {
                 @include proporcion (100%, 100%)
@@ -128,5 +101,9 @@
             display: flex;
             margin-top: 15px;
             justify-content: center;
+            .final-2 {
+                display: flex;
+                justify-content: center;
+            }
         }
 }
